@@ -17,19 +17,23 @@
                 <center>
                 <select id="combobox">
                 <option value="0" disabled selected>Tamaño del password</option>
-                <option value="1"> 128 bits(16 caracteres)</option>
-                <option value="2"> 192 bits(24 caracteres)</option>
-                <option value="3"> 256 bits(32 caracteres)</option>
+                <option value="128"> 128 bits(16 caracteres)</option>
+                <option value="192"> 192 bits(24 caracteres)</option>
+                <option value="256"> 256 bits(32 caracteres)</option>
                 </select>
                 </center>
             </form>
       </div>
       <div class="Ce">
         <form>
+          <center>
             <h2>Selecciona un archivo para cifrar/descifrar</h2>
             <input type="file" id="fichero"/>
             <h2>Escribe una contraseña</h2>
+            
             <input type="text" id='password' >
+          </center>
+            <p id="areatexto"></p>
             <div id="btns">
                 <input type="button" onclick="encriptar()" value="Cifrar" id="enviar">
                 <input type="button" onclick="desencriptar()" value="Descifrar" id="enviar">
