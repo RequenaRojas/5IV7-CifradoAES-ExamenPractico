@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+    border-style: none;
+    outline: none;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    padding: 0;
+    margin: 0;
+  }
+  body {
+    background: rgb(239, 239, 239);
+  }
+  .main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .Ce {
+    color: rgb(0, 0, 0);
+  }
+  input {
+    background: rgb(249, 96, 31);
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+    padding-inline: 20px;
+    padding-block: 7px;
+    border-radius: 100px;
+  }
+  .Ce {
+    background: rgb(239, 239, 239);
+    border-radius: 15px;
+    border: 3px solid;
+    border-color: rgb(249, 96, 31);
+    padding-inline: 40px;
+    padding-block: 55px;
+    margin-top: 10%;
+  }
+  h2 {
+    margin-bottom: 30px;
+  }
+  #contraseña {
+    width: 100%;
+  }
+  #enviar {
+    margin-top: 30px;
+  }
+  #enviar:hover {
+    background: rgb(297, 46, 31);
+    transition: 5ms;
+  }
+  #archivo1 {
+    margin-bottom: 30px;
+  }
+  
+  i:hover {
+    color: rgb(297, 46, 31);
+    transition: 5ms;
+  }
+  select option {
+    color: rgb(0, 0, 0);
+  }
+  form {
+    text-align: center;
+  }
+  #btns {
+    display: flex;
+    justify-content: space-around;
+  }
